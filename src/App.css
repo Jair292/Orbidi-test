@@ -1,0 +1,18 @@
+#root {
+  --font-color: white;
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: var(--font-color, 'inherit');
+}
+
+.list-cities {
+  color: var(--font-color, 'inherit');
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
